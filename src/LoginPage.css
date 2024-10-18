@@ -1,0 +1,63 @@
+/* General page styling */
+.login-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .login-header {
+    background-color: rgb(201, 120, 201); /* Purple header */
+    color: rgb(109, 17, 62);
+    padding: 15px;
+  }
+  
+  /* Container for the form */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* To center the form vertically */
+  }
+  
+  /* Form styling */
+  .login-form {
+    background-color: #e6ccff; /* Light purple color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* Input and button styles */
+  .login-form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #4c0073; /* Darker purple on hover */
+  }
